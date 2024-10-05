@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="h-screen flex flex-col justify-between">
+    <div>
+        <div class="flex justify-center items-center m-auto h-48 w-full">
+            <h1 class="font-bold text-5xl">Pomodoro Timer</h1>
+        </div>
+        <div class="flex justify-center items-center m-auto mt-24 h-48 w-full flex-col gap-5">
+            <span class="font-extrabold text-9xl" id="timer"
+                style="font-family:Arial, Helvetica, monospace;">25:00</span>
+            <button class="bg-slate-500 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded transition-all"
+                id="start">Start</button>
+            <button class="hidden bg-slate-500 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded transition-all"
+                id="stop">Stop</button>
+        </div>
+    </div>
+    <div class="py-3 bg-slate-500 w-full flex justify-center items-center">
+        <span class="text-white absolute left-3">By CinarKK</span>
+        <div class="flex items-center gap-5">
+            <div>
+                <a href="https://github.com/CinarKK9">
+                    <img src="../images/github-mark-white.svg" alt="github-mark-white" width="30px">
+                </a>
+            </div>
+            <div>
+                <a href="https://x.com/cinarkk9">
+                    <img src="../images/logo.svg" alt="x-white" width="25px">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
